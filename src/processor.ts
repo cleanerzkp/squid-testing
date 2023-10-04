@@ -34,6 +34,8 @@ export const processor = new EvmBatchProcessor()
     .addTransaction({
         to: ['0x0000000000000000000000000000000000000000'],
     })
+//.addBlock ({
+ // id
 // Processor for Ethereum Goerli testnet
 export const goerliProcessor = new EvmBatchProcessor()
     .setDataSource({
